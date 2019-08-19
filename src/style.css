@@ -227,10 +227,33 @@ section.projects ul li{
 
 section:nth-child(7) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #c20a85;
-  color: #fff;
+  background-color: #fff;
+  color: #8b4367;
   top: 600vh;
   z-index: 7;
+}
+
+section.connect .contacts a {
+  color: #8b4367;
+  text-decoration: none;
+  font-size: 18px;
+}
+a.mob-no{
+  margin-right: 1em;
+}
+.social{
+  margin-top: 2em;
+
+}
+.social a i {
+  font-size: 2em;
+  color: #8b4367;
+}
+.social a.linkedin:hover i{
+color: #0077B5;
+}
+.social a.instagram:hover i{
+  color: #f2003c;
 }
 
 
