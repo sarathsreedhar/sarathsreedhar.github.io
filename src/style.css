@@ -1,6 +1,5 @@
 body{
     font-family:'Montserrat', sans-serif; 
-    width: 600px;
     margin: 0 auto;
 }
 
@@ -199,6 +198,7 @@ section:nth-child(5) {
 
 section.experience .fixed > ul {
     display: flex;
+    padding: 0;
 }
 
 section.experience .fixed > ul li {
@@ -297,3 +297,125 @@ section:nth-child(10) {
   background: linear-gradient(141deg, #48ded4 0%, #a026bf 51%, #e82c75 75%);
 }
 
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1024px) {
+  body{
+    font-size: 13px;
+  }
+  h2{
+    font-size: 26px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    h6{
+        font-size: 12px;
+    }
+
+
+
+  section.education .institutions > div,
+  section.technical-skills .skill-set > div
+  {
+    flex-basis: 200px;
+    padding: 1em;
+    flex-grow: 1;
+
+  }
+  section.technical-skills .skill-set > div{
+    flex-basis: 188px;
+  }
+  section.technical-skills .sub-header .skill-logo{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section.technical-skills .sub-header .skill-logo i{
+    margin: 4px;
+  }
+  section.experience .fixed > ul li{
+    padding: 4px;
+    flex-grow: 1;
+
+  }
+}
+
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {
+
+  section .fixed{
+    transform: initial;
+    position: initial;
+
+  }
+  section{
+    position: inherit;
+    height: auto;
+    overflow: scroll;
+    clip: auto;
+  }
+  section .fixed{
+    flex-wrap: wrap;
+    justify-items: center;
+  }
+  section.header{
+    height: 100vh;
+  }
+  section.header .head-block{
+    flex-direction: column;
+    margin-top: 33%;;
+  }
+  .head-block h2{
+    margin-right: 0px;
+  }
+  section.header p{
+    padding-top: 10px;
+    display: inline-block;
+  }
+
+  section.career .fixed > div{
+    padding: 10px;
+    flex: 1;
+    flex-basis: 268px;
+  }
+  section .fixed{
+    justify-content: center;
+  }
+  section.education h4{
+    margin-bottom: 2em;
+  }
+  section.experience .fixed > ul{
+    flex-direction: column;
+  }
+  section.connect{
+    height: 100vh;
+  }
+  section.connect .contacts a{
+    display: flow-root;
+  }
+
+}
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) { }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) { }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { }
