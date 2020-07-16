@@ -55,6 +55,7 @@ section{
   position: absolute;
   width: 100%;
   height: 100vh;
+  min-height: 100vh;
   /* letter-spacing: 4px; */
   overflow: hidden;
   clip: rect(0, auto, auto, 0);
@@ -411,8 +412,17 @@ section:nth-child(10) {
   section .fixed{
     justify-content: center;
   }
+  section.career .fixed, section.education .fixed{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    align-content: space-between;
+  }
   section.education h4{
     margin-bottom: 2em;
+  }
+  section.education .institutions{
+    flex-direction: column;
   }
   section.experience .fixed > ul{
     flex-direction: column;
