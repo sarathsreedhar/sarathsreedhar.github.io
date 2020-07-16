@@ -55,6 +55,7 @@ section{
   position: absolute;
   width: 100%;
   height: 100vh;
+  min-height:100vh;
   /* letter-spacing: 4px; */
   overflow: hidden;
   clip: rect(0, auto, auto, 0);
