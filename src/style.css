@@ -393,7 +393,7 @@ section:nth-child(10) {
   }
   section.header .head-block{
     flex-direction: column;
-    margin-top: 50%;;
+    margin-top: 33vh;;
   }
   .head-block h2{
     margin-right: 0px;
@@ -419,7 +419,7 @@ section:nth-child(10) {
   }
   section.connect{
     height: 100vh;
-    padding-top: 50%;
+    padding-top: 33vh;
   }
   section.connect .contacts a{
     display: flow-root;
