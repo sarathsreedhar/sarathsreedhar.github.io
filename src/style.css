@@ -393,7 +393,7 @@ section:nth-child(10) {
   }
   section.header .head-block{
     flex-direction: column;
-    margin-top: 33%;;
+    margin-top: 50%;;
   }
   .head-block h2{
     margin-right: 0px;
@@ -419,25 +419,10 @@ section:nth-child(10) {
   }
   section.connect{
     height: 100vh;
-    padding-top: 33%;
+    padding-top: 50%;
   }
   section.connect .contacts a{
     display: flow-root;
   }
 
 }
-
-
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) { }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) { }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) { }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) { }
